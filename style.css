@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #87c9f5;
+}
+
+.form__col {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container__title {
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #77a8c7;
+  border: none;
+  width: 50%;
+}
