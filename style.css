@@ -7,10 +7,12 @@
 
 .container {
   margin: 0 auto;
+  height: 100%;
 }
 
 body {
   background-color: #87c9f5;
+  height: 1200px;
 }
 
 .form__col {
@@ -28,4 +30,21 @@ body {
   background-color: #77a8c7;
   border: none;
   width: 50%;
+}
+
+.messages {
+  height: 50%;
+}
+
+.box {
+  background-color: white;
+  width: 30%;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
 }

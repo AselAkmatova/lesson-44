@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
-  messageForm = document.querySelector('.form__col');
-  messageDiv = document.querySelector('.messages');
+  messageForm = document.querySelector('.btn');
+  messagesDiv = document.querySelector('.messages');
 
-  messageForm.addEventListener('submit', (e) => {
+  messageForm.addEventListener('click', (e) => {
     e.preventDefault();
 
-    const author = messageForm.querySelector('#author').value;
-    const message = messageForm.querySelector('#message').value;
+    const author = document.querySelector('#author').value;
+    const message = document.querySelector('#message').value;
 
-    let message = document.createElement('div');
-    message.classList.add('box');
-    message.classList.add('col-12');
+    let newMessage = document.createElement('div');
+    newMessage.classList.add('box');
+    newMessage.classList.add('col-12');
 
-    message.innerHTML = `
+    newMessage.innerHTML = `
     <h3>${author}</h3>
     <p>${message}</p>`;
-  });
 
-  messageDiv.prepend(message);
+    messagesDiv.prepend(newMessage);
+  });
 });
