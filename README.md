@@ -1,5 +1,5 @@
-# Lesson 43
+# Titter
 
-# New project - Titter
+# Lesson-43
 
 # Asel Akmatova
